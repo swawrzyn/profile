@@ -8,21 +8,30 @@
 </head>
 <body>
   <div class="container">
-    <div class="card">
+    <div class="sidebar">
+      <ul>
+        <li><a href="#home"><i class="fas fa-home"></i></a></li>
+        <li><a href="#media"><i class="fas fa-comments"></i></a></li>
+        <li><a href="#movies"><i class="fas fa-film"></i></a></li>
+        <li><a href="#about"><i class="fas fa-question-circle"></i></a></li>
+      </ul>
+    </div>
+    <div class="page-content">
+    <div class="card" id="home">
       <img id="face" src="images/profile_pic.jpg">
       <h1>Stefan Wawrzyn</h1>
       <h2>Programmer</h2>
       <p>Lorem ipsum is my favourite flavour of ice cream.</p>
     </div>
-    <div class="card links-card">
+    <div class="card links-card" id="media">
       <ul>
         <li><a href="#"><i class="fab fa-facebook-f"></i><br>Facebook</a></li>
-        <li><a href="#"><i class="fab fa-linkedin-in"></i><br>Linkedin</a></li>
-        <li><a href="http://www.piedpiper.com/ target="_blank"><i class="fab fa-pied-piper-pp"></i><br>Pied Piper</a></li>
+        <li><a href="https://www.linkedin.com/in/stefan-wawrzyn-bbb38aab/" target="_blank"><i class="fab fa-linkedin-in"></i><br>Linkedin</a></li>
+        <li><a href="http://www.piedpiper.com/" target="_blank"><i class="fab fa-pied-piper-pp"></i><br>Pied Piper</a></li>
       </ul>
     </div>
 
-    <div class="card">
+    <div class="card" id="movies">
       <h2>My Favourite Movies</h2>
       <table>
         <tbody>
@@ -57,10 +66,11 @@
       </table>
     </div>
 
-    <div class="card">
+    <div class="card" id="about">
       <h2>About this page</h2>
         <p>This page has been coded during the <a href="https://lewagon.com/program" target="_blank">FullStack program @LeWagon</a>. That was probably the best experience of my entire life.</p>
     </div>
   </div>
+</div>
 </body>
 </html>
